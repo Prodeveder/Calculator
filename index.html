@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Calculator app</title>
+
+    <!-- Css Files -->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <link rel="stylesheet" href="assets/css/reponsive.css" />
+
+    <!-- Js Files -->
+    <script src="assets/js/index.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="container__header">
+        <div class="container__header__item header">calc</div>
+        <div class="container__header__item">
+          <div class="container__header__item__box header">THEME</div>
+          <div class="container__header__item__box">
+            <div class="container__header__grid">
+              <div class="themes__index">
+                <span>1</span>
+                <span>2</span>
+                <span>3</span>
+              </div>
+            </div>
+            <div class="container__header__grid">
+              <div class="themes__toggle">
+                <div class="toggle" data-theme="theme1"></div>
+                <div class="toggle" data-theme="theme2"></div>
+                <div class="toggle" data-theme="theme3"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container__display">
+        <div class="calculations"></div>
+      </div>
+
+      <div class="container__keypad__wrapper">
+        <div class="container__keypad">
+          <div class="key">7</div>
+          <div class="key">8</div>
+          <div class="key">9</div>
+          <div class="key del">DEL</div>
+          <div class="key">4</div>
+          <div class="key">5</div>
+          <div class="key">6</div>
+          <div class="key">+</div>
+          <div class="key">1</div>
+          <div class="key">2</div>
+          <div class="key">3</div>
+          <div class="key">-</div>
+          <div class="key">.</div>
+          <div class="key">0</div>
+          <div class="key">/</div>
+          <div class="key">x</div>
+          <div class="key reset">RESET</div>
+          <div class="key enter">=</div>
+
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
