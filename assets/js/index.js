@@ -42,6 +42,7 @@ keys.forEach((key) => {
       results = results.slice(0, -1);
     } else if (key.textContent === "RESET") {
       display = "";
+      results = "";
     } else if (key.textContent === "=") {
       try {
         display = eval(results);
